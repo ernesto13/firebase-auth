@@ -70,7 +70,7 @@ let uid = "";
     firebase.auth().onAuthStateChanged(firebaseUser => {
 
         if (firebaseUser) {
-            console.log(firebaseUser);
+            // console.log(firebaseUser);
             //hide signup for here
             navBar.show();
             signUpForm.hide();
