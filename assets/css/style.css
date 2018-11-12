@@ -1,0 +1,17 @@
+body,html{
+    /*background-color: #6c757d;*/
+    background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+height: 100%;
+font-family: 'Black And White Picture', sans-serif;
+}
+
+.jumbotron{
+    background-color: #e2e2ff;
+}
+p {
+    font-size: 1.27rem;
+}
