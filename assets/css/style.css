@@ -8,9 +8,12 @@ background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, 
 height: 100%;
 font-family: 'Black And White Picture', sans-serif;
 }
-
 .jumbotron{
     background-color: #e2e2ff;
+    background-image: url('../images/funky-lines.png');
+}
+#navbar{
+    background-image: url('../images/darkness.png');
 }
 p {
     font-size: 1.27rem;
