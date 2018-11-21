@@ -51,6 +51,15 @@ $(document).ready(() => {
 
     });
 
+//gsap library for animations
+var jumbotron = document.querySelector(".main-container");
+TweenMax.from(jumbotron, 3, {
+    
+    opacity: "0"
+    
+});
+
+// TweenMax.to(".jumbotron", 1, {y:600});
 
     logOutBtn.on("click", () => {
 
